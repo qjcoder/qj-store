@@ -19,13 +19,11 @@ const Home = () => {
 
   const getCategories = () => {
     fecthDataFromApi("/api/categories?populate=*").then((res) => {
-      console.log(res);
       setCategories(res);
     });
   };
   const getProducts = () => {
     fecthDataFromApi("/api/products?populate=*").then((res) => {
-      console.log(res);
       setProducts(res);
     });
   };

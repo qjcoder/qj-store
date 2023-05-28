@@ -1,14 +1,17 @@
-import React from "react";
+import React, { Fragment } from "react";
+import "./success.scss";
+import ReactWhatsappButton from "react-whatsapp-button";
 
 const Success = () => {
   return (
-    <>
-      <div>
-        Thank You for Purchasing! Your order will be delivered within 2-3 days.
-      </div>
-      <div>In Case of any query please contact through whatsapp.</div>
-      <a href="https://wa.me/923419068640">WhatsApp</a>
-    </>
+    <div className="success-container">
+      <h1>
+        <span>Thank You for Purchasing!</span>
+        <span>Your order will be delivered within 2-3 days.</span>
+        <span>In case of any query please contact through whatsapp.</span>
+      </h1>
+      <ReactWhatsappButton animated countryCode="92" phoneNumber="987654321" />
+    </div>
   );
 };
 

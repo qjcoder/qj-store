@@ -16,15 +16,33 @@ const Newsletter = () => {
           Will be used in accordance with our Privacy Policy
         </div>
         <div className="social-icons">
-            <div className="icon">
-                <FaLinkedinIn size={14} />
-            </div>
-            <div className="icon">
-                <FaGithub size={14}/>
-            </div>
-            <div className="icon">
-                <FaTwitter size={14} />
-            </div>
+          <div className="icon">
+            <a
+              href="https://www.linkedin.com/in/qjcoder"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaLinkedinIn size={14} />
+            </a>
+          </div>
+          <div className="icon">
+            <a
+              href="https://github.com/qjcoder"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaGithub size={14} />
+            </a>
+          </div>
+          <div className="icon">
+            <a
+              href="https://twitter.com/qjcoder"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaTwitter size={14} />
+            </a>
+          </div>
         </div>
       </div>
     </section>

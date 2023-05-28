@@ -9,10 +9,9 @@ const Footer = () => {
         <div className="col">
           <div className="title">About</div>
           <div className="text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.Optio
-            laboriosam possimus quos voluptate labore omnis reiciendis veniam
-            maxime eius.Porro cupiditate hic explicabo iure voluptatem? Mollitia
-            pariatur sint officia ducimus ducimus!
+            Pakistan's No.1 audio & wearables brand. Audionic holds the widest
+            range of wireless earphones, earbuds, headphones, smart watches ,
+            and home audio. From workouts to adventures, We have you covered!
           </div>
         </div>
         <div className="col">
@@ -20,13 +19,11 @@ const Footer = () => {
           <div className="title">Contact</div>
           <div className="c-item">
             <FaLocationArrow />
-            <div className="text">
-              Ghazikot Township, Mansehra, KPK, Pakistan.
-            </div>
+            <div className="text">Multan,Punjab,Pakistan</div>
           </div>
           <div className="c-item">
             <FaMobileAlt />
-            <div className="text">Phone: +923419068640</div>
+            <div className="text">Phone: +920000000000</div>
           </div>
           <div className="c-item">
             <FaEnvelope />
@@ -57,8 +54,8 @@ const Footer = () => {
           <div className="text">
             QJSTORE 2023 CREATED BY QJ CODER. PREMIUM E-COMMERCE SOLUTIONS.
           </div>
-        <img src={Payment}/>
-        </div> 
+          <img src={Payment} />
+        </div>
       </div>
     </footer>
   );
